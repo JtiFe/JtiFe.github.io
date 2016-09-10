@@ -1,0 +1,58 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 100%; /*This is a comment*/
+}
+
+body {
+  padding: 40px 80px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  color: #40A7EF;
+}
+
+h2 {
+  color: #59595B;
+}
+
+#intro-para {
+}
+
+#message-form {
+  margin-top: 1.5rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  min-height: 100px;
+  margin-bottom: 1rem;
+}
+
+button {
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  font-size: 0.77rem;
+  padding: 0.6rem 1em;
+  color: white;
+  margin: 0 0.25rem;
+  text-align: center;
+  background: #BABABA;
+  border-bottom: 1px solid #999;
+}
+
+button[type="submit"] {
+  background: #86b32d;
+  border-bottom: 1px solid #5d7d1f;
+}
+
+button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
